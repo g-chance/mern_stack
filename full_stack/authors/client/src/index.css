@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.wrapper {
+  width: 1200px;
+  margin: auto;
+}
+
+.nav {
+  background-color: grey;
+  padding: 10px;
+  position: fixed;
+  left: 0;
+  right: 0;
+}
+
+.spacer {
+  height: 55px;
+}
+.main h3 {
+  margin: 10px 0 0 0;
+}
+.main table {
+  margin: 5px 0 0 0;
+}
+.main table, .main table * {
+  border: 1px solid black;
+}
+.main table * {
+  padding: 0 20px;
+  text-align: center;
+}
+
+.addAuthor h3 {
+  margin: 10px 0 0 0
+}
+.editAuthor h3 {
+  margin: 10px 0 0 0
+}
+.editAuthor button {
+  margin: 10px 0 0 0;
+  padding: 5px;
+}

@@ -1,0 +1,100 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.wrapper {
+  width: 1200px;
+  margin: auto;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.main-1 h2, .main-2 h2, .main-3 h2 {
+  margin: 10px 0 10px 0;
+  padding: 5px;
+  margin: 10px;
+  box-shadow: 0 0 5px black;
+  text-decoration: underline;
+}
+.main .project {
+  border: 1px solid black;
+  margin: 10px;
+  box-shadow: 0 0 5px green;
+}
+.main .project span {
+  font-weight: bold;
+}
+.main .project * {
+  margin: 5px 0;
+  padding: 5px;
+  text-align: left;
+}
+.main button {
+  padding: 4px;
+  margin: 2px;
+  font-weight: bold;
+  color: white;
+  background-color: gray;
+  box-shadow: 2px 2px 2px gray;
+}
+.main .addNew {
+  padding: 5px;
+  justify-self: center;
+  background-color: green;
+}
+.main .addNew * {
+  color: white;
+}
+.newProject form {
+  width: 40%;
+  margin: 20px auto 0 auto;
+  padding: 20px;
+  font-weight: bold;
+  border: 2px solid black;
+  border-radius: 50%;
+  box-shadow: 0 0 50px greenyellow;
+}
+.newProject input {
+  width: 200px;
+}
+.newProject .submit {
+  width: auto;
+  display: block;
+  margin: 10px auto;
+  padding: 5px;
+  color: white;
+  background-color: green;
+}
+/*  */
+
+
+
+
+@media only screen and (max-width: 1200px) {
+  .wrapper {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .main {
+    grid-template-columns: 1fr;
+  }
+}
